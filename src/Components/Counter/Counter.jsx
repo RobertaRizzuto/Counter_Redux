@@ -4,7 +4,7 @@ import dettiSiciliani from "../../Assets/detti-siciliani";
 
 import { useDispatch, useSelector } from "react-redux";
 
-const Counter_useReducer = () => {
+const Counter = () => {
   const { color, index } = useSelector((state) => state);
   const dispatch = useDispatch();
 
@@ -47,4 +47,4 @@ const Counter_useReducer = () => {
   );
 };
 
-export default Counter_useReducer;
+export default Counter;

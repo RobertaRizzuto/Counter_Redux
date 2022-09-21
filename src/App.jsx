@@ -1,10 +1,10 @@
 import styles from "./App.module.scss";
-import CounterUseReducer from "./Components/CounterUseReducer";
+import Counter from "./Components/Counter";
 
 function App() {
   return (
     <div className={styles.App}>
-      <CounterUseReducer />
+      <Counter />
     </div>
   );
 }
